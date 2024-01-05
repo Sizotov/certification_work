@@ -1,10 +1,10 @@
-package PackAnimals.Horses;
+package Tiere.PackAnimals.Donkeys;
 
-import PackAnimals.PackAnimals;
+import Tiere.PackAnimals.PackAnimals;
 
-public class Horses extends PackAnimals {
+public class Donkeys extends PackAnimals {
     private String[] commands;
-    public Horses(String name, String dateOfBirth, String[] commands) {
+    public Donkeys(String name, String dateOfBirth, String[] commands) {
         super(name, dateOfBirth, commands);
     }
     public void displayInfo() {
@@ -15,5 +15,4 @@ public class Horses extends PackAnimals {
             System.out.println("- " + command);
         }
     }
-
 }

@@ -1,4 +1,4 @@
-package Animals;
+package Tiere.Animals;
 
 public class Animals {
     private String name;

@@ -1,6 +1,6 @@
-package Pets.Hamsters;
+package Tiere.Pets.Hamsters;
 
-import Pets.Pets;
+import Tiere.Pets.Pets;
 
 public class Hamsters extends Pets {
     public Hamsters(String name, String dateOfBirth, String[] commands) {

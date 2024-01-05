@@ -1,11 +1,11 @@
-package PackAnimals;
-import Animals.Animals;
+package Tiere.PackAnimals.Horses;
 
-public class PackAnimals extends Animals {
+import Tiere.PackAnimals.PackAnimals;
+
+public class Horses extends PackAnimals {
     private String[] commands;
-    public PackAnimals(String name, String dateOfBirth, String[] commands) {
-        super(name, dateOfBirth);
-        this.commands = commands;
+    public Horses(String name, String dateOfBirth, String[] commands) {
+        super(name, dateOfBirth, commands);
     }
     public void displayInfo() {
         super.displayInfo();
@@ -15,4 +15,5 @@ public class PackAnimals extends Animals {
             System.out.println("- " + command);
         }
     }
+
 }

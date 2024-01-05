@@ -1,6 +1,6 @@
-package PackAnimals.Camels;
+package Tiere.PackAnimals.Camels;
 
-import PackAnimals.PackAnimals;
+import Tiere.PackAnimals.PackAnimals;
 
 public class Camels extends PackAnimals {
     private String[] commands;

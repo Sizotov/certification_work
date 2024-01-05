@@ -1,10 +1,10 @@
-package Main;
-import PackAnimals.Camels.Camels;
-import PackAnimals.Donkeys.Donkeys;
-import PackAnimals.Horses.Horses;
-import Pets.Cats.Cats;
-import Pets.Dogs.Dogs;
-import Pets.Hamsters.Hamsters;
+package Tiere.Main;
+import Tiere.PackAnimals.Camels.Camels;
+import Tiere.PackAnimals.Donkeys.Donkeys;
+import Tiere.PackAnimals.Horses.Horses;
+import Tiere.Pets.Cats.Cats;
+import Tiere.Pets.Dogs.Dogs;
+import Tiere.Pets.Hamsters.Hamsters;
 
 public class Main {
     public static void main(String[] args) {

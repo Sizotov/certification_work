@@ -1,6 +1,6 @@
-package Pets.Cats;
+package Tiere.Pets.Cats;
 
-import Pets.Pets;
+import Tiere.Pets.Pets;
 
 public class Cats extends Pets {
     public Cats(String name, String dateOfBirth, String[] commands) {

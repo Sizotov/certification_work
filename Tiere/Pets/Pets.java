@@ -1,5 +1,5 @@
-package Pets;
-import Animals.Animals;
+package Tiere.Pets;
+import Tiere.Animals.Animals;
 
 public class Pets extends Animals {
     private String[] commands;

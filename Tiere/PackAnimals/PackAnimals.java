@@ -1,11 +1,11 @@
-package PackAnimals.Donkeys;
+package Tiere.PackAnimals;
+import Tiere.Animals.Animals;
 
-import PackAnimals.PackAnimals;
-
-public class Donkeys extends PackAnimals {
+public class PackAnimals extends Animals {
     private String[] commands;
-    public Donkeys(String name, String dateOfBirth, String[] commands) {
-        super(name, dateOfBirth, commands);
+    public PackAnimals(String name, String dateOfBirth, String[] commands) {
+        super(name, dateOfBirth);
+        this.commands = commands;
     }
     public void displayInfo() {
         super.displayInfo();
