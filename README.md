@@ -1,16 +1,3 @@
-Итоговая контрольная работа
-
- Информация о проекте
- Необходимо организовать систему учета для питомника в котором живут домашние и Pack animals. 
-
-Как сдавать проект 
-
-Для сдачи проекта необходимо создать отдельный общедоступный репозиторий(Github, gitlub, или Bitbucket). Разработку вести в этом репозитории, использовать пул реквесты на изменения. Программа должна запускаться и работать, ошибок при выполнении программы быть не должно. Программа, может использоваться в различных системах, поэтому необходимо разработать класс в виде конструктора 
-
-Задание 
-
-Операционные системы и виртуализация (Linux)
-
 1. Использование команды cat в Linux
    - Создать два текстовых файла: "Pets"(Домашние животные) и "Pack animals"(вьючные животные), используя команду `cat` в терминале Linux. В первом файле перечислить собак, кошек и хомяков. Во втором — лошадей, верблюдов и ослов.
    - Объединить содержимое этих двух файлов в один и просмотреть его содержимое.
@@ -18,14 +5,20 @@
 Пример конечного вывода после команды “ls” :
 Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt  Pictures  Videos
 
+![Screenshot_1](https://github.com/Sizotov/check_work/blob/main/Задание_1.png)
+
 2. Работа с директориями в Linux
    - Создать новую директорию и переместить туда файл "Human Friends".
 
+![Screenshot_2](https://github.com/Sizotov/check_work/blob/main/Задание_2.png)
+
 3. Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную машину ”
    - Подключить дополнительный репозиторий MySQL и установить один из пакетов из этого репозитория.
-
 4. Управление deb-пакетами
    - Установить и затем удалить deb-пакет, используя команду `dpkg`.
+
+![Screenshot_3](https://github.com/Sizotov/check_work/blob/main/Задание_3.png)
+![Screenshot_4](https://github.com/Sizotov/check_work/blob/main/Добавка.png)
 
 5. История команд в терминале Ubuntu
    - Сохранить и выложить историю ваших терминальных команд в Ubuntu.
@@ -39,28 +32,44 @@ Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt 
 Каждый тип животных будет характеризоваться (например, имена, даты рождения, выполняемые команды и т.д)
 Диаграмму можно нарисовать в любом редакторе, такими как Lucidchart, Draw.io, Microsoft Visio и других.
 
+![Screenshot_5](https://github.com/Sizotov/check_work/blob/main/animals.drawio.svg)
+
 7. Работа с MySQL (Задача выполняется в случае успешного выполнения задачи “Работа с MySQL в Linux. “Установить MySQL на вашу машину”
 
 7.1. После создания диаграммы классов в 6 пункте, в 7 пункте база данных "Human Friends" должна быть структурирована в соответствии с этой диаграммой. Например, можно создать таблицы, которые будут соответствовать классам "Pets" и "Pack animals", и в этих таблицах будут поля, которые характеризуют каждый тип животных (например, имена, даты рождения, выполняемые команды и т.д.). 
 7.2   - В ранее подключенном MySQL создать базу данных с названием "Human Friends".
+
+![Screenshot_6](https://github.com/Sizotov/check_work/blob/main/Создание%20БД.png)
+
    - Создать таблицы, соответствующие иерархии из вашей диаграммы классов.
+
+![Screenshot_7](https://github.com/Sizotov/check_work/blob/main/Иерархия_1.png)
+![Screenshot_8](https://github.com/Sizotov/check_work/blob/main/Иерархия_2.png)
+
    - Заполнить таблицы данными о животных, их командах и датами рождения.
+
+![Screenshot_9](https://github.com/Sizotov/check_work/blob/main/Pack_1.png)
+![Screenshot_10](https://github.com/Sizotov/check_work/blob/main/pack_2.png)
+![Screenshot_11](https://github.com/Sizotov/check_work/blob/main/Pets_1.png)
+![Screenshot_12](https://github.com/Sizotov/check_work/blob/main/Pets_2.png)
+
    - Удалить записи о верблюдах и объединить таблицы лошадей и ослов.
+
+![Screenshot_13](https://github.com/Sizotov/check_work/blob/main/Camels.png)
+
    - Создать новую таблицу для животных в возрасте от 1 до 3 лет и вычислить их возраст с точностью до месяца.
+
+![Screenshot_14](https://github.com/Sizotov/check_work/blob/main/Tiere.png)
+
    - Объединить все созданные таблицы в одну, сохраняя информацию о принадлежности к исходным таблицам.
 
-Пример заполненной таблицы для теста:
-Лист "Pets"
-
-
- Лист "PackAnimals"
-
-
-
-
+![Screenshot_15](https://github.com/Sizotov/check_work/blob/main/united.png)
+![Screenshot_16](https://github.com/Sizotov/check_work/blob/main/united_2.png)
 
 8. ООП и Java
-   - Создать иерархию классов в Java, который будет повторять диаграмму классов созданную в задаче 6(Диаграмма классов) .
+   - Создать иерархию классов в Java, который будет повторять диаграмму классов созданную в задаче 6(Диаграмма классов).
+
+![Screenshot_4](https://github.com/Sizotov/check_work/blob/main/Иерархия%20классов.png)
 
 9. Программа-реестр домашних животных
     - Написать программу на Java, которая будет имитировать реестр домашних животных. 
