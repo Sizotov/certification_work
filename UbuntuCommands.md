@@ -5,10 +5,14 @@ List of commands:
 TASK 1:
 
 cat > Pets.txt
+
 cat > PackAnimals.txt
+
 cat AllAnimals.txt
+
 mv AllAnimals.txt HumanFriends.txt
 ls
+
 
 TASK 2:
 
